@@ -17,5 +17,8 @@ steps:
 
 - script: |
     npm install
-    npm run build
+    npm i -g vsce
+    npm vsce package
+    vsce login 0b452574-1ccd-6b6e-9d12-df14a5ba5e71
+    
   displayName: 'npm install and build'
