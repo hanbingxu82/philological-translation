@@ -3,9 +3,13 @@
   "displayName": "philological-translation",
   "description": "A translation plugin for annotation",
   "version": "0.0.1",
-  "publisher":"0b452574-1ccd-6b6e-9d12-df14a5ba5e71",
+  "publisher":"tinkerbell-hx",
   "engines": {
     "vscode": "^1.85.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hanbingxu82/philological-translation.git"
   },
   "categories": [
     "Other"

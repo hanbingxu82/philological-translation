@@ -1,7 +1,7 @@
 # philological-translation
 
-[![Marketplace Version](https://vsmarketplacebadge.apphb.com/version-short/0b452574-1ccd-6b6e-9d12-df14a5ba5e71.philological-translation.svg)](https://marketplace.visualstudio.com/items?itemName=0b452574-1ccd-6b6e-9d12-df14a5ba5e71.philological-translation)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs/0b452574-1ccd-6b6e-9d12-df14a5ba5e71.philological-translation.svg)](https://marketplace.visualstudio.com/items?itemName=0b452574-1ccd-6b6e-9d12-df14a5ba5e71.philological-translation)
+<!-- [![Marketplace Version](https://vsmarketplacebadge.apphb.com/version-short/tinkerbell-hx.philological-translation.svg)](https://marketplace.visualstudio.com/items?itemName=tinkerbell-hx.philological-translation)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/tinkerbell-hx.philological-translation.svg)](https://marketplace.visualstudio.com/items?itemName=tinkerbell-hx.philological-translation) -->
 
 ## 功能特性
 
