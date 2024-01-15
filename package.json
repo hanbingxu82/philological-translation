@@ -2,7 +2,7 @@
   "name": "philological-translation",
   "displayName": "philological-translation",
   "description": "A translation plugin for annotation",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "publisher":"tinkerbell-hx",
   "engines": {
     "vscode": "^1.85.0"
@@ -15,8 +15,7 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:custom.action.jsCommentAndTranslate",
-    "onCommand:custom.showKeybindingInstruction"
+    "*"
   ],
   "main": "./extension.js",
   "icon": "icons/icon.png",
@@ -27,8 +26,20 @@
         "title": "Comment and Translate Selection"
       },
       {
-        "command": "custom.showKeybindingInstruction",
-        "title": "Show Keybinding Instruction for Comment and Translate"
+        "command": "custom.action.jsCommentAndTranslateHump",
+        "title": "Comment and Translate Selection Hump"
+      }
+    ],
+    "keybindings": [
+      {
+        "key": "cmd+m",
+        "command": "custom.action.jsCommentAndTranslate",
+        "when": "editorTextFocus && !editorReadonly"
+      },
+      {
+        "key": "cmd+alt+m",
+        "command": "custom.action.jsCommentAndTranslateHump",
+        "when": "editorTextFocus && !editorReadonly"
       }
     ],
     "configuration": [
