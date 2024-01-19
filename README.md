@@ -7,6 +7,7 @@ philological-translation 是一款专为注解和翻译设计的VSCode插件。�
 ### 主要功能
 
 - **Comment and Translate Selection**：选中代码后，通过命令面板或快捷键执行此操作，可以快速将选中文本添加注释并进行翻译。
+- **Comment and Translate Selection Hump**：选中代码后，通过命令面板或快捷键执行此操作，可以快速将选中文本添加注释并进行翻译成驼峰写法。
 
 ### 获取百度翻译API的App ID和API Key
 
@@ -57,13 +58,14 @@ philological-translation 是一款专为注解和翻译设计的VSCode插件。�
 
 - 要使用翻译功能，请首先确保已正确配置了 App ID 和 API Key。
 - 选中需要注解和翻译的代码片段。
-- 在命令面板（快捷键 `Ctrl+Shift+P` 或 `Cmd+Shift+P`）中输入并选择 "Comment and Translate Selection" 命令。
+- 在命令面板（快捷键 `Ctrl+Shift+P` 或 `Cmd+Shift+P`）中输入并选择 "Comment and Translate Selection（ctrl+m）" || "Comment and Translate Selection Hump（ctrl+alt+m）" 命令。
 
 ## 快捷键
 
-- 若要查看如何为 "Comment and Translate Selection" 功能添加快捷键，请运行 "Show Keybinding Instruction for Comment and Translate" 命令。
+- Comment and Translate Selection（ctrl+m）中英互译
+- Comment and Translate Selection Hump（ctrl+alt+m）中英互译驼峰写法
 
-## 更新日志
+// ## 更新日志
 
 请参阅 [CHANGELOG.md](./CHANGELOG.md) 获取每个版本的主要更新内容和改进。
 
